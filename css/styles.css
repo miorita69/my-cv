@@ -16,8 +16,16 @@ h2 {
 h3 {
     margin: 10px 0 0 0;
     font: normal normal 400 18px Georgia, "Times New Roman", serif;
-    color: #0080ff;
+    color: #000000;
     /*border: 1px solid yellowgreen;*/
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+
+    /*border: 1px solid red;*/
 }
 
 header p {
@@ -34,8 +42,7 @@ header ul {
     display: flex;
     justify-content: center;
 
-    max-width: 960px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     list-style-type: none;
 }
@@ -50,14 +57,6 @@ header ul li a {
     font: normal normal 700 12px Georgia, "Times New Roman", serif;
     color: #0080ff;
     text-decoration: none;
-}
-
-main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0;
-
-    /*border: 1px solid red;*/
 }
 
 #about {
@@ -122,7 +121,8 @@ main {
 #work-experience,
 #skills,
 #languages,
-#miscellaneous {
+#miscellaneous,
+#contact {
     margin: 10px 0 0 10px;
     /*border: 1px solid blue;*/
 }
@@ -134,13 +134,22 @@ main {
     margin: 0;
     padding: 0;
     font: normal normal 400 16px Georgia, "Times New Roman", serif;
-    color: #000000;
     text-align: justify;
     line-height: 2;
+    color: #0080ff;
+    /*border: 1px solid magenta;*/
+}
+
+#miscellaneous p {
+    color: #000000;
     /*border: 1px solid magenta;*/
 }
 
 #skills ul,
 #languages ol {
     margin: 0;
+}
+
+#skills h3 {
+    color: #0080ff;
 }
