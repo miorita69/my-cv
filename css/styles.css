@@ -5,11 +5,27 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin: 10px 0 10px 0;
+    font: normal normal 700 22px Georgia, "Times New Roman", serif;
+    color: #000000;
+    /*border: 1px solid yellowgreen;*/
+}
+
+
+h3 {
+    margin: 10px 0 0 0;
+    font: normal normal 400 18px Georgia, "Times New Roman", serif;
+    color: #0080ff;
+    /*border: 1px solid yellowgreen;*/
+}
+
 header p {
     margin: 0;
     font: normal normal 700 18px Georgia, "Times New Roman", serif;
     text-align: center;
 }
+
 header p:last-child {
     margin: 20px 0 0 0;
 }
@@ -34,4 +50,97 @@ header ul li a {
     font: normal normal 700 12px Georgia, "Times New Roman", serif;
     color: #0080ff;
     text-decoration: none;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+
+    /*border: 1px solid red;*/
+}
+
+#about {
+    margin: 20px 10px 0 10px;
+    /*border: 1px solid green;*/
+}
+
+.about {
+    display: flex;
+
+    margin: 10px 0 0 0;
+    /*border: 1px solid blue;*/
+}
+
+.about-left img {
+    margin: 0 5px 0 0;
+}
+
+.about-right {
+    margin: 0 0 0 5px;
+}
+
+.about-right p {
+    margin: 0 0 5px 0;
+    padding: 0;
+    font: normal normal 400 16px Georgia, "Times New Roman", serif;
+    color: #000000;
+    text-align: justify;
+    line-height: 2;
+    /*border: 1px solid magenta;*/
+}
+
+.about-right a {
+    margin: 0;
+    font: normal normal 700 18px Georgia, "Times New Roman", serif;
+    color: #0080ff;
+    text-decoration: none;
+    /*border: 1px solid blue;*/
+}
+
+#basic-information {
+    margin: 20px 10px 0 10px;
+    /*border: 1px solid blue;*/
+}
+
+#basic-information tr td {
+    margin: 0;
+    font: normal normal 400 16px Georgia, "Times New Roman", serif;
+    color: #000000;
+    line-height: 2;
+}
+
+#basic-information tr td a{
+    margin: 0;
+    font: normal normal 400 16px Georgia, "Times New Roman", serif;
+    color: #0080ff;
+    text-decoration: none;
+}
+
+#education,
+#additional-education,
+#work-experience,
+#skills,
+#languages,
+#miscellaneous {
+    margin: 10px 0 0 10px;
+    /*border: 1px solid blue;*/
+}
+
+#education p,
+#additional-education p,
+#work-experience p,
+#miscellaneous p {
+    margin: 0;
+    padding: 0;
+    font: normal normal 400 16px Georgia, "Times New Roman", serif;
+    color: #000000;
+    text-align: justify;
+    line-height: 2;
+    /*border: 1px solid magenta;*/
+}
+
+#skills ul,
+#languages ol {
+    margin: 0;
 }
