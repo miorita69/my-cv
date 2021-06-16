@@ -1,49 +1,27 @@
 h1 {
-    margin: 20px 0 10px 0;
     font: normal normal 700 24px Georgia, "Times New Roman", serif;
     color: #0080ff;
-    text-align: center;
 }
 
 h2 {
-    margin: 10px 0 10px 0;
     font: normal normal 700 22px Georgia, "Times New Roman", serif;
     color: #000000;
-    /*border: 1px solid yellowgreen;*/
 }
 
-
 h3 {
-    margin: 10px 0 0 0;
     font: normal normal 400 18px Georgia, "Times New Roman", serif;
     color: #000000;
-    /*border: 1px solid yellowgreen;*/
 }
 
 header, main, footer {
     max-width: 960px;
-    margin: 0 auto;
-    padding: 0;
-
-    /*border: 1px solid red;*/
 }
 
 header p {
-    margin: 0;
     font: normal normal 700 18px Georgia, "Times New Roman", serif;
-    text-align: center;
-}
-
-.slogan {
-    margin: 20px 0 0 0;
 }
 
 header ul {
-    display: flex;
-    justify-content: center;
-
-    margin: 0;
-    padding: 0;
     list-style-type: none;
 }
 
@@ -53,53 +31,20 @@ header ul li:not(:first-child):before {
 }
 
 header ul li a {
-    margin: 10px 10px 20px 10px;
     font: normal normal 700 12px Georgia, "Times New Roman", serif;
     color: #0080ff;
-    text-decoration: none;
-}
-
-#about {
-    margin: 20px 10px 0 10px;
-    /*border: 1px solid green;*/
-}
-
-.about {
-    display: flex;
-
-    margin: 10px 0 0 0;
-    /*border: 1px solid blue;*/
-}
-
-.about-left img {
-    margin: 0 5px 0 0;
 }
 
 .about-right {
-    margin: 0 0 0 5px;
-}
-
-.about-right p {
-    margin: 0 0 5px 0;
-    padding: 0;
     font: normal normal 400 16px Georgia, "Times New Roman", serif;
     color: #000000;
     text-align: justify;
-    line-height: 2;
-    /*border: 1px solid magenta;*/
+    line-height: 1.5;
 }
 
-.about-right a {
-    margin: 0;
+.about-right_link {
     font: normal normal 700 18px Georgia, "Times New Roman", serif;
     color: #0080ff;
-    text-decoration: none;
-    /*border: 1px solid blue;*/
-}
-
-#basic-information {
-    margin: 20px 10px 0 10px;
-    /*border: 1px solid blue;*/
 }
 
 #basic-information tr td {
@@ -110,21 +55,8 @@ header ul li a {
 }
 
 #basic-information tr td a{
-    margin: 0;
     font: normal normal 400 16px Georgia, "Times New Roman", serif;
     color: #0080ff;
-    text-decoration: none;
-}
-
-#education,
-#additional-education,
-#work-experience,
-#skills,
-#languages,
-#miscellaneous,
-#contact {
-    margin: 10px 0 0 10px;
-    /*border: 1px solid blue;*/
 }
 
 #education p,
@@ -132,23 +64,14 @@ header ul li a {
 #work-experience p,
 #miscellaneous p,
 #contact p {
-    margin: 0;
-    padding: 0;
     font: normal normal 400 16px Georgia, "Times New Roman", serif;
     text-align: justify;
     line-height: 2;
     color: #0080ff;
-    /*border: 1px solid magenta;*/
 }
 
 #miscellaneous p {
     color: #000000;
-    /*border: 1px solid magenta;*/
-}
-
-#skills ul,
-#languages ol {
-    margin: 0;
 }
 
 #skills h3,
@@ -156,11 +79,16 @@ header ul li a {
     color: #0080ff;
 }
 
-#contact article {
-    margin: 0 auto;
-    max-width: 680px;
+#skills ul li,
+#skills ol li,
+#languages ol li {
+    font: normal normal 400 16px Georgia, "Times New Roman", serif;
+    color: #000000;
+    line-height: 1.5;
+}
 
-    /*border: 1px solid magenta;*/
+#contact article {
+    max-width: 680px;
 }
 
 #contact input,
@@ -173,7 +101,7 @@ header ul li a {
 #contact textarea {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    /*margin: 8px 0;*/
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -185,10 +113,7 @@ header ul li a {
     display: block;
     background-color: #0080ff;
     color: white;
-    padding: 14px 20px;
-    margin: 8px auto;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
   
@@ -203,8 +128,6 @@ header ul li a {
   
 #contact article {
     border-radius: 5px;
-    /*background-color: rgba(0, 128, 255, 0.05);*/
-    padding: 0;
 }
 
 #contact textarea {
@@ -214,13 +137,8 @@ header ul li a {
 
 header hr,
 footer hr {
-    margin: 15px 0;
     border: none;
     border-top: 1px solid #ccc;
- }
-
- footer h2:last-child {
-    text-align: center;
  }
 
  footer h2:last-child span {
